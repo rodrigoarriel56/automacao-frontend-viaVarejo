@@ -518,3 +518,9 @@ java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | "r
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:10:58.030
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:15:58.154
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:15:58.155
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
