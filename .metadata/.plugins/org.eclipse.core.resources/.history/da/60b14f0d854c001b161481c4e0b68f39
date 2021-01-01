@@ -1,0 +1,19 @@
+/**
+ * A Classe LoginPage é responsável por gerenciar os obejetos da pagina de login
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import utils.BaseWebPageFactory;
+
+
+public class PedidoPage extends BaseWebPageFactory {
+
+}

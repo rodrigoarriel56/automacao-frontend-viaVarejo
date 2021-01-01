@@ -1,0 +1,520 @@
+!SESSION 2021-01-01 20:50:11.038 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=1.8.0_212
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/60003339/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/60003339/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2021-01-01 20:50:21.520
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2021-01-01 20:50:22.238
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-01 20:50:22.238
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d142b53,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3bac86a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:51:14.040
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:51:14.135
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:51:42.957
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:51:42.962
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:51:44.586
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:51:44.669
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:52:11.547
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:52:11.550
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:52:12.574
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:52:12.576
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:53:00.696
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:53:00.698
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:53:00.813
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:53:00.815
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:01.314
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | "aleatório" | "Conta adicionada com sucesso!" | : Not Started - Undefined (11)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:23.667
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | "aleatório" | "Conta adicionada com sucesso!" | : Completed - Error (11)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:23.670
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '20': TestSuite: | "rodrigoarriel56@gmail.com" | "A1B2C3D4E5" | "Bem vindo, Rodrigo!" | : Not Started - Undefined (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.021
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '20': TestSuite: | "rodrigoarriel56@gmail.com" | "A1B2C3D4E5" | "Bem vindo, Rodrigo!" | : Completed - Error (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.021
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '31': TestSuite: | "rodrigoarriel56@gmail.com" | "A1B2C3D4E5" | "Bem vindo, Rodrigo!" | : Not Started - Undefined (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.064
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '31': TestSuite: | "rodrigoarriel56@gmail.com" | "A1B2C3D4E5" | "Bem vindo, Rodrigo!" | : Completed - Error (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.065
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '42': TestSuite: | "aleatório" | "aleatório" | "A1B2C3D4E5" | "Usuário inserido com sucesso" | : Not Started - Undefined (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.156
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '42': TestSuite: | "aleatório" | "aleatório" | "A1B2C3D4E5" | "Usuário inserido com sucesso" | : Completed - Error (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.156
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '52': TestSuite: | "Rodrigo" | "rodrigoarriel56@gmail.com" | "A1B2C3D4E5" | "Endereço de email já utilizado" | : Not Started - Undefined (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.248
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '52': TestSuite: | "Rodrigo" | "rodrigoarriel56@gmail.com" | "A1B2C3D4E5" | "Endereço de email já utilizado" | : Completed - Error (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.249
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '60': TestSuite: | "" | "rap@gmail.com" | "A1B2C3D4E5" | "Nome é um campo obrigatório" | : Not Started - Undefined (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.347
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '60': TestSuite: | "" | "rap@gmail.com" | "A1B2C3D4E5" | "Nome é um campo obrigatório" | : Completed - Error (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.348
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '68': TestSuite: | "aleatório" | "" | "A1B2C3D4E5" | "Email é um campo obrigatório" | : Not Started - Undefined (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.420
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '68': TestSuite: | "aleatório" | "" | "A1B2C3D4E5" | "Email é um campo obrigatório" | : Completed - Error (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.421
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '76': TestSuite: | "aleatório" | "bessa@email.com" | "" | "Senha é um campo obrigatório" | : Not Started - Undefined (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:53:26.496
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '76': TestSuite: | "aleatório" | "bessa@email.com" | "" | "Senha é um campo obrigatório" | : Completed - Error (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jface 2 0 2021-01-01 20:53:39.243
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-01 20:53:39.243
+!MESSAGE A conflict occurred for COMMAND+/:
+Binding(COMMAND+/,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.toggle.comment,Toggle comment,
+		Toggle comment,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c2972ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+Binding(COMMAND+/,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.addblockcommentcommand,Add Block Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1864eba6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-01 20:53:39.243
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F:
+Binding(COMMAND+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ffa9d20,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+Binding(COMMAND+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@215f22d3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:53:49.079
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:53:49.082
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:53:54.095
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:53:54.097
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:54:05.884
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:54:05.886
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:54:07.630
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:54:07.632
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:54:11.461
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:54:11.465
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:54:11.582
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:54:11.585
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:54:12.036
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | "rodrigoarriel56@gmail.com" | "A1B2C3D4E5" | "Bem vindo, Rodrigo!" | : Not Started - Undefined (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testStarted(TestRunSession.java:714)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$5.run(RemoteTestRunnerClient.java:537)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestStarted(RemoteTestRunnerClient.java:533)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$6(RemoteTestRunnerClient.java:529)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:92)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.jdt.junit.core 4 4 2021-01-01 20:54:25.247
+!MESSAGE Error
+!STACK 0
+java.lang.Exception: Unexpected TestElement type for testId '5': TestSuite: | "rodrigoarriel56@gmail.com" | "A1B2C3D4E5" | "Bem vindo, Rodrigo!" | : Completed - Error (7)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.logUnexpectedTest(TestRunSession.java:807)
+	at org.eclipse.jdt.internal.junit.model.TestRunSession$TestSessionNotifier.testEnded(TestRunSession.java:744)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$4.run(RemoteTestRunnerClient.java:523)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.notifyTestEnded(RemoteTestRunnerClient.java:519)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$7(RemoteTestRunnerClient.java:515)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$DefaultProcessingState.readMessage(RemoteTestRunnerClient.java:96)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.receiveMessage(RemoteTestRunnerClient.java:378)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient.access$27(RemoteTestRunnerClient.java:377)
+	at org.eclipse.jdt.internal.junit.model.RemoteTestRunnerClient$ServerConnection.run(RemoteTestRunnerClient.java:273)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:55:57.625
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:55:57.627
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:58:28.591
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:58:28.593
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:58:45.308
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:58:45.310
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:58:48.786
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:58:48.787
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:59:09.674
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:59:09.677
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:59:38.703
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:59:38.705
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:59:50.837
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 20:59:50.839
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:00:12.869
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:00:12.871
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:00:40.768
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:00:40.769
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:00:57.763
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:00:57.765
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:01:44.273
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:01:44.275
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:02:03.086
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:02:03.088
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:03:57.463
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:03:57.465
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:04:13.411
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:04:13.412
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:05:14.863
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:05:14.865
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:05:57.898
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:05:57.900
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:10:58.028
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-01 21:10:58.030
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
