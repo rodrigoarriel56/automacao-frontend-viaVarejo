@@ -1,0 +1,56 @@
+/**
+ * A Classe LoginPage é responsável por gerenciar os obejetos da pagina de login
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
+package pages;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import utils.BaseWebPageFactory;
+
+
+public class PedidoPage extends BaseWebPageFactory {
+	
+
+    //Locators
+    
+    @FindBy(how = How.ID, using = "strBusca") //arrumar XPATH
+    private WebElement campoBusca;
+
+    @FindBy(how = How.XPATH, using = "//*[@class='alert alert-success']")
+    private WebElement validateMessagemLogin;
+
+    @FindBy(how = How.XPATH, using = "//a[@href='/logout']")
+    private WebElement submitFieldLogout;
+    
+    public PedidoPage(WebDriver driver) {
+        super(driver);
+    }
+ 
+    public void setUrl(String pUrl) {
+        driver.navigate().to(pUrl);
+        
+    }
+
+    public void campoBusca() {
+    	campoBusca.click();
+    }
+
+    public String getMessageLoginSuccess() throws InterruptedException {
+        waitUntilElementIsVisible(validateMessagemLogin);
+        return validateMessagemLogin.getText();
+    }
+
+    public void submitFieldLogout() throws InterruptedException {
+    	Thread.sleep(2000);
+        submitFieldLogout.click();
+    }
+
+}
