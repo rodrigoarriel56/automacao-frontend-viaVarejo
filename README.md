@@ -1,1 +1,0 @@
-# automacao-frontend-viaVarejo
