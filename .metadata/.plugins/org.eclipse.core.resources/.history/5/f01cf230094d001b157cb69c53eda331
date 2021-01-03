@@ -1,0 +1,126 @@
+/**
+ * A Classe LoginPage é responsável por gerenciar os obejetos da pagina de login
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
+package pages;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import utils.BaseWebPageFactory;
+
+
+public class PedidoPage extends BaseWebPageFactory {
+	
+
+    //Locators
+    
+    @FindBy(how = How.ID, using = "strBusca")
+    private WebElement setFieldcampoBusca;
+    
+    @FindBy(how = How.ID, using = "btnOK")
+    private WebElement submitFieldBtnBuscar; //Botão para buscar o produto
+    
+    @FindBy(how = How.XPATH, using = "//h4[contains(.,'iPhone XR')]")
+    private WebElement submitFieldSelecioneProduto; //Selecionar produto Iphone
+    
+    @FindBy(how = How.XPATH, using = "//a[contains(.,'Vendido e entregue por Casas Bahia (6)')]")
+    private WebElement submitFieldVendidoEntregue; //Selecionar quem Vende e entrega
+    
+    @FindBy(how = How.XPATH, using = "//ul[@id='ulMarca']/li/a")
+    private WebElement submitFieldFiltroProduto; //Filtrar produto
+    
+    @FindBy(how = How.XPATH, using = "//a[contains(@href, '/c/apple/?filtro=d33115_l10037_m19&v=memoria-total_128gb')]")
+    private WebElement submitFieldFiltroCategoria; //Filtrar Categoria
+    
+    @FindBy(how = How.XPATH, using = "//div[6]/ul/li/a")
+    private WebElement submitFieldFiltro; //Filtrar nova categoria
+    
+    @FindBy(how = How.XPATH, using = "//div[6]/ul/li/a")
+    private WebElement submitFieldListaFavoritos; //Adicionar a lista de favoritos
+    
+    @FindBy(how = How.XPATH, using = "//span[contains(.,'iPhone XR Apple 128GB PRODUCT(RED), Tela de 6.1”, Câmera de 12MP, iOS')]")
+    private WebElement submitFieldDetalhesProduto; //Clicar em produto
+    
+    @FindBy(how = How.ID, using = "frete")
+    private WebElement setFieldBtnFrete;
+    
+    @FindBy(how = How.XPATH, using = "//button[contains(.,'Comprar')]")
+    private WebElement submitFieldBtnComprar;
+    
+    @FindBy(how = How.XPATH, using = "//button[contains(.,'CONTINUAR')]")
+    private WebElement submitFieldBtnContinuar;
+    
+    @FindBy(how = How.ID, using = "btnComprarMaisProdutos")
+    private WebElement submitFieldBtnComprarMaisProdutos;
+    
+    @FindBy(how = How.ID, using = "itensCarrinho")
+    private WebElement submitFieldBtnCarrinho;
+    
+    @FindBy(how = How.XPATH, using = "//td[2]/a")
+    private WebElement submitFieldBtnRemoverProdutoCarrinho;
+    
+    @FindBy(how = How.XPATH, using = "//a[contains(.,'Continuar Comprando')]")
+    private WebElement submitFieldBtnContinuarComprando;
+    
+    @FindBy(how = How.XPATH, using = "//*[@class='alert alert-success']")
+    private WebElement validateMessagemLogin;
+
+    @FindBy(how = How.XPATH, using = "//a[@href='/logout']")
+    private WebElement submitFieldLogout;
+    
+    public PedidoPage(WebDriver driver) {
+        super(driver);
+    }
+ 
+    public void setUrl(String pUrl) {
+        driver.navigate().to(pUrl);
+        
+    }
+
+    public void submitFieldCampoBusca(String strBusca) throws InterruptedException {
+    	setFieldcampoBusca.click();
+    	setFieldcampoBusca.sendKeys(strBusca);    	
+    	submitFieldBtnBuscar.click();
+    	Thread.sleep(2000);
+    }
+    
+    public void submitFieldSelecioneProduto() throws InterruptedException {
+    	submitFieldSelecioneProduto.click();
+    	Thread.sleep(2000);    	
+    }
+    
+    public void submitFieldVendidoEntregue() throws InterruptedException {
+    	submitFieldVendidoEntregue.click();
+    	Thread.sleep(2000);    	
+    }
+    
+    public void submitFieldFiltroProduto() throws InterruptedException {
+    	submitFieldFiltroProduto.click();
+    	Thread.sleep(2000);    	
+    }
+    
+    public void submitFieldFiltroCategoria() throws InterruptedException {
+    	submitFieldFiltroCategoria.click();
+    	Thread.sleep(2000);    	
+    }
+    
+    
+
+    public String getMessageLoginSuccess() throws InterruptedException {
+        waitUntilElementIsVisible(validateMessagemLogin);
+        return validateMessagemLogin.getText();
+    }
+
+    public void submitFieldLogout() throws InterruptedException {
+    	Thread.sleep(2000);
+        submitFieldLogout.click();
+    }
+
+}

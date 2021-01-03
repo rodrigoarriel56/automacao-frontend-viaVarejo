@@ -114,7 +114,8 @@ public class FrameworkWordEvidence {
 
     }
 
-    public void addText(WordprocessingMLPackage template, String text) throws InvalidFormatException, JAXBException {
+    @SuppressWarnings("unused")
+	public void addText(WordprocessingMLPackage template, String text) throws InvalidFormatException, JAXBException {
         org.docx4j.wml.ObjectFactory factory = Context.getWmlObjectFactory();
         P spc = factory.createP();
         R rspc = factory.createR();

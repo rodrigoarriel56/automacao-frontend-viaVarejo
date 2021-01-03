@@ -1,0 +1,13 @@
+/**
+ * A Classe Pedido é responsável selecionar o produto e inserir no carrinho
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
+
+package stepdefinition;
+
+public class Pedido {
+
+}

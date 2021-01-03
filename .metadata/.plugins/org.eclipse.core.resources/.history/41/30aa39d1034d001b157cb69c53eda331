@@ -1,0 +1,99 @@
+/**
+ * A Classe LoginPage é responsável por gerenciar os obejetos da pagina de login
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
+package pages;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import utils.BaseWebPageFactory;
+
+
+public class PedidoPage extends BaseWebPageFactory {
+	
+
+    //Locators
+    
+    @FindBy(how = How.ID, using = "strBusca")
+    private WebElement campoBusca;
+    
+    @FindBy(how = How.ID, using = "btnOK")
+    private WebElement btnBuscar; //Botão para buscar o produto
+    
+    @FindBy(how = How.XPATH, using = "//h4[contains(.,'iPhone XR')]")
+    private WebElement selecioneProduto; //Selecionar produto Iphone
+    
+    @FindBy(how = How.XPATH, using = "//a[contains(.,'Vendido e entregue por Casas Bahia (6)')]")
+    private WebElement vendidoEntregue; //Selecionar quem Vende e entrega
+    
+    @FindBy(how = How.XPATH, using = "//ul[@id='ulMarca']/li/a")
+    private WebElement filtroProduto; //Filtrar produto
+    
+    @FindBy(how = How.XPATH, using = "//a[contains(@href, '/c/apple/?filtro=d33115_l10037_m19&v=memoria-total_128gb')]")
+    private WebElement filtroCategoria; //Filtrar Categoria
+    
+    @FindBy(how = How.XPATH, using = "//div[6]/ul/li/a")
+    private WebElement filtro; //Filtrar nova categoria
+    
+    @FindBy(how = How.XPATH, using = "//div[6]/ul/li/a")
+    private WebElement listaFavoritos; //Adicionar a lista de favoritos
+    
+    @FindBy(how = How.XPATH, using = "//span[contains(.,'iPhone XR Apple 128GB PRODUCT(RED), Tela de 6.1”, Câmera de 12MP, iOS')]")
+    private WebElement detalhesProduto; //Clicar em produto
+    
+    @FindBy(how = How.ID, using = "frete")
+    private WebElement btnFrete;
+    
+    @FindBy(how = How.XPATH, using = "//button[contains(.,'Comprar')]")
+    private WebElement btnComprar;
+    
+    @FindBy(how = How.XPATH, using = "//button[contains(.,'CONTINUAR')]")
+    private WebElement btnContinuar;
+    
+    @FindBy(how = How.ID, using = "btnComprarMaisProdutos")
+    private WebElement btnComprarMaisProdutos;
+    
+    @FindBy(how = How.ID, using = "itensCarrinho")
+    private WebElement btnCarrinho;
+    
+    @FindBy(how = How.XPATH, using = "//td[2]/a")
+    private WebElement btnRemoverProdutoCarrinho;
+    
+
+    @FindBy(how = How.XPATH, using = "//*[@class='alert alert-success']")
+    private WebElement validateMessagemLogin;
+
+    @FindBy(how = How.XPATH, using = "//a[@href='/logout']")
+    private WebElement submitFieldLogout;
+    
+    public PedidoPage(WebDriver driver) {
+        super(driver);
+    }
+ 
+    public void setUrl(String pUrl) {
+        driver.navigate().to(pUrl);
+        
+    }
+
+    public void campoBusca() {
+    	campoBusca.click();
+    }
+
+    public String getMessageLoginSuccess() throws InterruptedException {
+        waitUntilElementIsVisible(validateMessagemLogin);
+        return validateMessagemLogin.getText();
+    }
+
+    public void submitFieldLogout() throws InterruptedException {
+    	Thread.sleep(2000);
+        submitFieldLogout.click();
+    }
+
+}

@@ -169,7 +169,8 @@ public class FrameworkElement implements WebElement {
 
     }
 
-    public String takeEvidenceWithStep(String action) {
+    @SuppressWarnings("static-access")
+	public String takeEvidenceWithStep(String action) {
         this.utils.addStep();
 
         try {

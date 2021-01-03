@@ -1,0 +1,34 @@
+/**
+ * A Classe Pedido é responsável selecionar o produto e inserir no carrinho
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
+
+package stepdefinition;
+
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Então;
+import cucumber.api.java.pt.Quando;
+import frontutils.PropertiesHelper;
+
+import pages.PedidoPage;
+
+import java.util.Properties;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+
+public class Pedido {
+	
+    private Properties properties = new PropertiesHelper().getProperties();
+    private PedidoPage pedidoPage;
+
+    public Pedido() {
+    	pedidoPage = new PedidoPage(Hooks.driver);
+    }
+
+
+}

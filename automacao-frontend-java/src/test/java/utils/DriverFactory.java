@@ -9,12 +9,12 @@ package utils;
 
 import java.io.File;
 import java.io.IOException;
-
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import framework.FrameworkDriver;
 
+@SuppressWarnings("unused")
 public class DriverFactory {
 
     public enum Browsers {

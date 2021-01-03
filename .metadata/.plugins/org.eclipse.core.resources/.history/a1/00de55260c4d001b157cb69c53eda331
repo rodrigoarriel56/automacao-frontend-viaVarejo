@@ -1,0 +1,22 @@
+# language: pt
+# encoding UTF-8
+
+Funcionalidade: Selecionar produto no site casas Bahia
+
+  Contexto: Evidenciar Teste;
+    Dado que utilizo o word para evidências com as informações de execução
+      | Site Casas Bahia | selecionar produto no site | Iphone SX | Iphone S | Produto selecionado com sucesso | Rodrigo Arriel | 01 | 01 |
+
+  @execute @pedido @chrome-same-session @generate-word
+  Esquema do Cenario: CT - Produto - selecionar produto no site das casas Bahia
+  
+    Dado que estou na página de login através da url "url"
+    Quando preencho o campo busca <PRODUTO>
+    E preencho o campo senha <SENHA>
+    E clico no botão Entrar
+    Então a aplicação exibe a mensagem <MENSAGEM>
+    E clico no botão Sair
+
+    Exemplos:
+      |  PRODUTO |     CEP   | 
+      | "Iphone" | "01153020"|
