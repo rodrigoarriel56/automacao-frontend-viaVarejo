@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="automacao-frontend-java" tests="11" started="11" failures="0" errors="2" ignored="7">
-  <testsuite name="runner.RunnerTest" time="14.132">
-    <testsuite name="Funcionalidade: Selecionar produto no site casas Bahia" time="14.132">
-      <testsuite name="Esquema do Cenario: CT - Produto - selecionar produto no site das casas Bahia" time="14.132">
-        <testsuite name="Exemplos:" time="14.132">
-          <testsuite name="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="11.182" incomplete="true">
+  <testsuite name="runner.RunnerTest" time="13.924">
+    <testsuite name="Funcionalidade: Selecionar produto no site casas Bahia" time="13.924">
+      <testsuite name="Esquema do Cenario: CT - Produto - selecionar produto no site das casas Bahia" time="13.924">
+        <testsuite name="Exemplos:" time="13.924">
+          <testsuite name="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="10.822" incomplete="true">
             <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'stepdefinition.Pedido.seleciono_o_produto_na_grid() in file:/Users/60003339/WorkspaceArriel/automacao/automacao-frontend-java/target/test-classes/' with pattern [^seleciono o produto na grid "([^"]*)"$] is declared with 0 parameters. However, the gherkin step has 1 arguments [IPHONE XR]. 
 Step: Quando seleciono o produto na grid "IPHONE XR"
 	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)
@@ -58,10 +58,10 @@ Step: Quando seleciono o produto na grid "IPHONE XR"
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
 
 </error>
-            <testcase name="Dado que utilizo o word para evidências com as informações de execução" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="4.088"/>
-            <testcase name="Dado que estou no site das casas bahia através da url &quot;url&quot;" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="7.089"/>
+            <testcase name="Dado que utilizo o word para evidências com as informações de execução" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="4.26"/>
+            <testcase name="Dado que estou no site das casas bahia através da url &quot;url&quot;" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="6.557"/>
             <testcase name="Quando preencho o campo busca &quot;Iphone&quot;" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.002"/>
-            <testcase name="Quando seleciono o produto na grid &quot;IPHONE XR&quot;" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.002">
+            <testcase name="Quando seleciono o produto na grid &quot;IPHONE XR&quot;" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.003">
               <error>cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'stepdefinition.Pedido.seleciono_o_produto_na_grid() in file:/Users/60003339/WorkspaceArriel/automacao/automacao-frontend-java/target/test-classes/' with pattern [^seleciono o produto na grid "([^"]*)"$] is declared with 0 parameters. However, the gherkin step has 1 arguments [IPHONE XR]. 
 Step: Quando seleciono o produto na grid "IPHONE XR"
 	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)
@@ -117,13 +117,13 @@ Step: Quando seleciono o produto na grid "IPHONE XR"
 
 </error>
             </testcase>
-            <testcase name="Quando filtro os produtos apresentados" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.001" ignored="true"/>
+            <testcase name="Quando filtro os produtos apresentados" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.0" ignored="true"/>
             <testcase name="Quando seleciono o detalhes do produto" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.0" ignored="true"/>
-            <testcase name="Quando preencho campo cep &quot;01153020&quot;" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.0" ignored="true"/>
-            <testcase name="E aciono o botao continuar" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.001" ignored="true"/>
-            <testcase name="E aciono botao comprar mais produtos" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.0" ignored="true"/>
-            <testcase name="Quando aciono carrinho na home" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.001" ignored="true"/>
-            <testcase name="Então sera apresentado o produto no carrinho" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="2.946" ignored="true"/>
+            <testcase name="Quando preencho campo cep &quot;01153020&quot;" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.001" ignored="true"/>
+            <testcase name="E aciono o botao continuar" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.0" ignored="true"/>
+            <testcase name="E aciono botao comprar mais produtos" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.001" ignored="true"/>
+            <testcase name="Quando aciono carrinho na home" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="0.0" ignored="true"/>
+            <testcase name="Então sera apresentado o produto no carrinho" classname="| &quot;Iphone&quot; | &quot;IPHONE XR&quot; | &quot;01153020&quot; |" time="3.098" ignored="true"/>
           </testsuite>
         </testsuite>
       </testsuite>
